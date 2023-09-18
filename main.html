@@ -4,10 +4,61 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+        /* CSS for the pricing card */
+        .card {
+            width: 300px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* CSS for the image */
+        .card img {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        /* CSS for the title */
+        .card h1 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        /* CSS for pricing information */
+        .card p.price {
+            font-size: 20px;
+            color: #333;
+        }
+
+        /* CSS for description */
+        .card p.description {
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* CSS for the Buy Now button */
+        .card button {
+            padding: 10px 20px;
+            background-color: red;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <div class="card">
+        <img src="https://images.unsplash.com/photo-1586082207282-3dcb61d25ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cm9zZSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Product Image">
+        <h1>Pricing Card</h1>
+        <p class="price">Rs.200</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Buy Now</button>
     <script type="text/javascript" src="./script.js">
 </script>
 
